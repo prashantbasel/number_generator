@@ -1,5 +1,5 @@
-import 'package:calculator_app/screen/gesture_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:number_generator/screen/number_generator.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GestureScreen(),
+      home: NumberScreen(),
     );
   }
 }
